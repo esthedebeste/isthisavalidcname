@@ -17,6 +17,13 @@
 				--line-height: 1.5;
 				line-height: 1.5;
 			}
+			body {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
+				min-height: 100vh;
+			}
 			main {
 				padding-top: 25vh;
 			}
@@ -31,6 +38,7 @@
 				font-weight: bold;
 				margin: 0;
 				padding: 0;
+				text-align: center;
 			}
 			textarea,
 			.measure-size {
@@ -111,8 +119,6 @@
 			}
 
 			footer {
-				position: absolute;
-				bottom: 0;
 				left: 0;
 				right: 0;
 				text-align: center;

@@ -1,0 +1,8 @@
+{
+	"scripts": {
+		"build": "html-minifier-terser -c ./minify.json ./index.html -o ./build/index.html"
+	},
+	"dependencies": {
+		"html-minifier-terser": "^7.2.0"
+	}
+}

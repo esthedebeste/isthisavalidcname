@@ -170,7 +170,7 @@
 		<script>
 			const LIST_AND = new Intl.ListFormat("en-US", { type: "conjunction" })
 			const LIST_OR = new Intl.ListFormat("en-US", { type: "disjunction" })
-			const identifier = /^\p{XID_Start}\p{XID_Continue}*$/u // as specified in C23, https://open-std.org/JTC1/SC22/WG14/www/docs/n2836.pdf.
+			const identifier = /^[\p{XID_Start}_]\p{XID_Continue}*$/u // as specified in C23, https://open-std.org/JTC1/SC22/WG14/www/docs/n2836.pdf.
 			const input = document.querySelector("textarea")
 			const output = document.querySelector(".output")
 			const outputShort = output.querySelector("h1")
